@@ -20,6 +20,6 @@ echo ""
 echo "  Echolalia: http://127.0.0.1:$PORT/demos/echolalia/"
 echo "  HalfViz:   http://127.0.0.1:$PORT/demos/halfviz/"
 echo "  Atlas:     http://127.0.0.1:$PORT/demos/atlas/"
-echo "  Test:     http://127.0.0.1:$PORT/demos/test/"
+echo "  Test:      http://127.0.0.1:$PORT/demos/test/"
 echo ""
-python -m SimpleHTTPServer $PORT
+python3 -m http.server $PORT

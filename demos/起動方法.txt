@@ -1,0 +1,6 @@
+# venvコマンド
+# python3 -m venv myenv
+
+WSL起動
+source myenv/bin/activate
+./demo-server.sh
